@@ -1,0 +1,68 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+ol{
+    padding-inline-start: 20px;
+}
+li{
+    display: inline;
+    /* background-image: linear-gradient(red, yellow); */
+}
+a{
+    /* display: inline; */
+    padding: 15px;
+    padding-top: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    border-radius: 8px;
+    background-color: rgb(243, 243, 243);
+    color: rgb(89, 89, 89);
+}
+div>p{
+    display: block;
+    width: 245px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family:sans-serif ;
+}
+ form{
+    width: 603px;
+    margin: auto;
+    margin-top: 20px;
+} 
+label{
+    font-size: 23px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 5px;
+}
+input{
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* margin-top: 5px; */
+    border: 4px solid rgb(190, 190, 190);
+    border-radius: 7px;
+}
+button{
+    width: 600px;
+    box-sizing: border-box;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 267px;
+    padding-right: 267px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(49, 111, 255);
+    font-size: 22px;
+    color: aliceblue;
+}
+button:hover{
+    border: 4px solid rgb(99, 146, 255);
+    border-radius: 7px;
+}
